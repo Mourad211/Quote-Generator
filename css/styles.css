@@ -25,7 +25,7 @@ main {
 .container p {
   font-family: "Faculty Glyphic", sans-serif;
   padding: 10px;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 500;
 }
 .container p.special {
@@ -38,4 +38,5 @@ main {
   font-size: 18px;
   border: 1px solid black;
   border-radius: 20px;
+  cursor: pointer;
 }
