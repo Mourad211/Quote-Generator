@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+.container h1 {
+  font-family: "Cormorant Garamond", serif;
+  padding: 20px;
+  font-weight: 900;
+  font-size: 48px;
+}
+.container p {
+  font-family: "Faculty Glyphic", sans-serif;
+  padding: 10px;
+  font-size: 28px;
+  font-weight: 500;
+}
+.container p.special {
+  font-family: "Lugrasimo", cursive;
+}
+.container button {
+  padding: 20px 60px;
+  margin-block: 20px;
+  font-family: "Lugrasimo", cursive;
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
